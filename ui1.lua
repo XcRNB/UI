@@ -1,3 +1,4 @@
+--该ui为岩公益脚本使用私自盗用者死全家
 local Configs_HUB = {
   Cor_Hub = Color3.fromRGB(15, 15, 15),
   Cor_Options = Color3.fromRGB(15, 15, 15),
@@ -27,7 +28,7 @@ local function SetProps(instance, props)
     table.foreach(props, function(prop, value)
       instance[prop] = value
     end)
-  end
+  end --该ui为岩公益脚本使用私自盗用者死全家
   return instance
 end
 
@@ -37,7 +38,7 @@ local function Corner(parent, props)
   if props then
     SetProps(new, props)
   end
-  return new
+  return new --该ui为岩公益脚本使用私自盗用者死全家
 end
 
 local function Stroke(parent, props)
@@ -379,7 +380,7 @@ function MakeWindow(Configs)
   end)
   
   local Close_Button = Create("TextButton", ButtonsFrame, {
-    Text = "×",
+    Text = "×", --该ui为岩公益脚本使用私自盗用者死全家
     TextYAlignment = "Bottom",
     TextColor3 = Configs_HUB.Cor_Text,
     Size = UDim2.new(0.5, 0, 1, 0),
@@ -692,10 +693,10 @@ function MakeWindow(Configs)
       TextColor3 = Configs_HUB.Cor_Text,
       Text = ButtonName,
       Size = UDim2.new(1, 0, 1, 0),
-      Position = UDim2.new(0, 35, 0, 0),
+      Position = UDim2.new(0, 35, 0, 0), --该ui为岩公益脚本使用私自盗用者死全家
       BackgroundTransparency = 1,
       TextXAlignment = "Left",
-      Font = Configs_HUB.Text_Font
+      Font = Configs_HUB.Text_Font --该ui为岩公益脚本使用私自盗用者死全家
     })
     
     local ImageLabel = Create("ImageLabel", TextButton, {
@@ -1003,7 +1004,7 @@ function MakeWindow(Configs)
     })Corner(Frame)Stroke(Frame)
     
     local TextLabel = Create("TextButton", Frame, {
-      TextSize = 12,
+      TextSize = 12, --该ui为岩公益脚本使用私自盗用者死全家
       TextColor3 = Configs_HUB.Cor_Text,
       Text = KeybindName,
       Size = UDim2.new(1, 0, 1, 0),
@@ -1214,7 +1215,7 @@ function MakeWindow(Configs)
       if prop == "Size" then
         if TextButton.Size.Y.Offset >= 60 then
           picker.Position = UDim2.new(0, 5, 0, 5)
-          UI_Grade.Visible = true
+          UI_Grade.Visible = true --该ui为岩公益脚本使用私自盗用者死全家
           A_1.Visible = true
           grade.Visible = true
         else
@@ -1511,7 +1512,7 @@ function MakeWindow(Configs)
     })TextSetColor(TextButton)
     
     local TextLabel = Create("TextLabel", Frame, {
-      Name = "Frame",
+      Name = "Frame", --该ui为岩公益脚本使用私自盗用者死全家
       Size = UDim2.new(1, 0, 0, 0),
       BackgroundTransparency = 1,
       AutomaticSize = "Y",
@@ -1626,3 +1627,4 @@ function MakeWindow(Configs)
   end
   return Menu
 end
+--该ui为岩公益脚本使用私自盗用者死全家
